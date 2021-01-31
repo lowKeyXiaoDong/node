@@ -1,4 +1,4 @@
-export const parser = async () => {
+const parser = async () => {
   let reqData = []
   let size = 0
   await new Promise((resolve, reject) => {
@@ -15,3 +15,5 @@ export const parser = async () => {
     })
   })
 }
+
+module.exports = { parser }
