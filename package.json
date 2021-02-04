@@ -8,8 +8,12 @@
     "http-proxy-middleware": "^1.0.6",
     "jest": "^26.6.3",
     "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
     "koa-redis": "^4.0.1",
+    "koa-router": "^10.0.0",
     "koa-session": "^6.1.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
     "mysql": "^2.18.1",
     "redis": "^3.0.2"
   }
